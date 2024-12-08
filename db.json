@@ -68,8 +68,8 @@
     },
     {
       "id": "19a3",
-      "name": "Lol",
-      "email": "Ioh@example.com",
+      "name": "Yerasil",
+      "email": "olo@example.com",
       "password": "1234"
     }
   ],
@@ -100,8 +100,8 @@
       "reviews": [
         "Thought-provoking and relevant.",
         "Absolutely terrifying vision of the future.",
-        "Хорош",
-        "гуд"
+        "Good",
+        "Yes"
       ]
     },
     {
@@ -113,11 +113,7 @@
       "price": 180,
       "description2": "The beginning of an epic journey to save Middle-earth from the dark powers of Sauron.",
       "rating": 4.8,
-      "reviews": [
-        "Адик хорош",
-        "круто",
-        "Кул"
-      ]
+      "reviews": []
     },
     {
       "id": "4",
@@ -142,9 +138,7 @@
       "price": 140,
       "description2": "Jane Austen's timeless story of love and social standing.",
       "rating": 4.9,
-      "reviews": [
-        "Хороший!"
-      ]
+      "reviews": []
     },
     {
       "id": "6",
@@ -155,9 +149,7 @@
       "price": 20,
       "description2": "An epic tale of politics, religion, and survival on the desert planet Arrakis.",
       "rating": 4.8,
-      "reviews": [
-        "Гудд"
-      ]
+      "reviews": []
     },
     {
       "id": "7",
@@ -201,27 +193,12 @@
       "price": 190,
       "description2": "C.S. Lewis's beloved tale of adventure in the magical land of Narnia.",
       "rating": 4.8,
-      "reviews": []
+      "reviews": [
+        "Good"
+      ]
     }
   ],
-  "cart": [
-    {
-      "id": "c424",
-      "title": "Pride and Prejudice",
-      "image": "https://m.media-amazon.com/images/I/712P0p5cXIL._AC_UF1000,1000_QL80_.jpg",
-      "price": 1400,
-      "info1": "A classic romantic novel about social class and relationships.",
-      "quantity": 1
-    },
-    {
-      "id": "d1bb",
-      "title": "1984",
-      "image": "https://anylang.net/sites/default/files/styles/book_image/public/covers/1984.jpg?itok=IVpqqKj5",
-      "price": 180,
-      "info1": "A dystopian novel about totalitarianism.",
-      "quantity": 2
-    }
-  ],
+  "cart": [],
   "checkout": [
     {
       "id": "7054",
@@ -432,6 +409,20 @@
         }
       ],
       "totalPrice": 7500
+    },
+    {
+      "id": "56ab",
+      "items": [
+        {
+          "id": "f3c6",
+          "title": "The Lord of the Rings: The Fellowship of the Ring",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROXcRkMBWPAQHM1il6uE4VDvXCmvnef2op1w&s",
+          "price": 180,
+          "info1": "The first book in the epic fantasy series about the quest to destroy the One Ring.",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 360
     }
   ]
 }

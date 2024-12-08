@@ -6,7 +6,6 @@ function Modal({ isOpen, onClose, product, onReviewAdd }) {
     const [showReviews, setShowReviews] = useState(false);
     const [localReviews, setLocalReviews] = useState([]);
 
-    // Сбрасываем локальные отзывы при изменении выбранного продукта
     useEffect(() => {
         if (product) {
             setLocalReviews(product.reviews || []);
@@ -18,16 +17,12 @@ function Modal({ isOpen, onClose, product, onReviewAdd }) {
             alert("Введите текст отзыва!");
             return;
         }
-
-        // Добавляем новый отзыв в локальный список
         const updatedReviews = [...localReviews, reviewText];
-        setLocalReviews(updatedReviews); // Обновляем локальное состояние отзывов
-        onReviewAdd(product.id, updatedReviews); // Передаем обновления в родительский компонент
+        setLocalReviews(updatedReviews); 
+        onReviewAdd(product.id, updatedReviews); 
 
-        // Очищаем поле ввода
         setReviewText("");
 
-        // Отправляем изменения на сервер
         try {
             const updatedProduct = { ...product, reviews: updatedReviews };
 
